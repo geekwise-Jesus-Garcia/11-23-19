@@ -4,7 +4,9 @@ ports:
 tasks:
   - command: >
           pyenv gloval 3.7.4 &&
-          pipenv shell
           pipenv install django 3.7.4 &&
-          pipenv install djangoorestframework==3.10.3
+          pipenv install djangoorestframework==3.10.3 &&
+          pipenv install &&
+          pipenv shell &&
+
           
