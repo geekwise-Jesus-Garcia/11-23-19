@@ -7,6 +7,6 @@ tasks:
           pipenv install django 3.7.4 &&
           pipenv install djangoorestframework==3.10.3 &&
           pipenv install &&
-          pipenv shell &&
+          pipenv shell 
 
           
